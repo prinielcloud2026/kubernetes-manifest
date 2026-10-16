@@ -13,10 +13,10 @@ spec:
   ingressClassName: nginx
   tls:
     - hosts:
-        - car.digitalwitch.online
+        - car.priniel.space
       secretName: car-service-tls
   rules:
-    - host: car.digitalwitch.online
+    - host: car.priniel.space
       http:
         paths:
           - path: /
